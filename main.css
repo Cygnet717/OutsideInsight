@@ -1,3 +1,38 @@
 * {
     box-sizing: border-box;
-  }
+}
+
+body{
+  /*background-color: rgb(172, 155, 226);*/
+}
+
+.backgroundImage{
+  position: absolute;
+  transform: rotate(90deg);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+nav{
+  background-color: rgba(140, 114, 224, 0.9);
+  height: 100px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navLink{
+  color: #6D94ED;
+}
+
+.fishtree{
+  height: 300px;
+}
+
+.questionnaire{
+  border: 1px solid black;
+}
