@@ -3,20 +3,10 @@
 }
 
 body{
-  /*background-color: rgb(172, 155, 226);*/
+  position: relative;
 }
 
-.backgroundImage{
-  position: absolute;
-  transform: rotate(90deg);
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  width: 100%;
-}
-
-h1{
+h1, h3{
   width: max-content;
   margin-left: auto;
   margin-right: auto;
@@ -25,6 +15,7 @@ h1{
 nav{
   background-color: rgba(140, 114, 224, 0.9);
   height: 100px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -50,14 +41,46 @@ a{
   border: 1px solid black;
 }
 
+.bodyBox{
+  margin-top: 60px;
+  background-image: url('./Images/gradientaBackground.jpg');
+  background-position: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: fit-content;
+}
+
 .dyslexiaBox, .communicationBox{
  width: 45%;
- display: inline-block;
- border: 1px solid red;
- 
+ min-width: 300px;
+ min-height: 300px;
+ height: max-content;
+ background-color: rgb(187, 200, 228);
+ border-radius: 5px;
+ margin: 10px;
+ box-shadow: 5px 5px 5px;
 }
 
 p{
-  padding: 10px;
+  padding: 20px;
 }
 
+@media (hover: none){
+  .bodyBox{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dyslexiaBox, .communicationBox{
+    min-width: 45;
+  }
+
+  .navLink{
+    display: none;
+  }
+}
