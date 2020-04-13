@@ -19,7 +19,7 @@ h3{
 }
 
 nav{
-  background-color: rgba(140, 114, 224, 0.9);
+  background-color: #0083A0;
   height: 100px;
   width: 100%;
   display: flex;
@@ -42,6 +42,7 @@ a{
   color: white;
   border: 1px solid white;
   padding: 10px;
+  margin: 10px;
   border-radius: 5px;
 }
 
@@ -55,28 +56,48 @@ a{
 
 .bodyBox{
   margin-top: 30px;
-  background-image: url('./Images/gradientaBackground.jpg');
-  background-position: center;
-  position: absolute;
-  left: 0;
-  right: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   height: fit-content;
   animation: fadeIn 0.5s;
+  margin-bottom: 100px;
+}
+
+.etymology{
+  display: inline-block;
+  margin: 10px;
+}
+
+.colorBox{
+  position: absolute;
+  right: -30px;
+  height: 110%;
+  width: 90px;
+  background-color: #09AD71;
+  z-index: -1;
+}
+
+.picture{
+  position: relative;
+  margin: 20px;
+}
+
+.maddiebus{
+  height: 500px;
 }
 
 .dyslexiaBox, .communicationBox{
+  background-color: #09B8A9;
  width: 45%;
  min-width: 300px;
  min-height: 300px;
  height: max-content;
- background-color: rgb(187, 200, 228);
  border-radius: 5px;
- margin: 60px;
- box-shadow: 5px 5px 5px;
+ margin: 20px;
+ box-shadow: 5px 5px 5px rgb(2, 22, 68);
 }
 
 p{
@@ -91,7 +112,7 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(140, 114, 224, 0.9);
+  background-color: #0083A0;
   height: 70px;
 }
 
