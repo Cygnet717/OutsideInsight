@@ -116,16 +116,20 @@ footer{
   height: 70px;
 }
 
-.warningSigns{
+.warningSigns, .accommodations{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.warningSection{
+.warningSection, .accommSection{
   width: 450px;
   border: 1px solid black;
   padding: 20px;
+}
+
+.resourceLink{
+  margin: 5px;
 }
 
 @media (hover: none){
