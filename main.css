@@ -10,6 +10,7 @@ h1, h3{
   width: max-content;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Playfair Display', serif;
 }
 
 h3{
@@ -46,13 +47,54 @@ a{
   border-radius: 5px;
 }
 
+/*Dyslexia page*/
+
 .fishtree{
+  display: block;
   height: 300px;
+  margin: 60px auto;
+}
+
+.dyslexiaIntro {
+  width: 70%;
+  margin: 20px auto 20px auto;
+  background-color: #09B8A9;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgb(2, 22, 68);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 140%;
+  font-size: 18px;
+}
+
+.signsList{
+  width: max-content;
+  margin-left: 30px;
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 .questionnaire{
-  border: 1px solid black;
+  width: max-content;
+  margin: 80px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(240, 226, 29);
+  font-family: 'Open Sans', sans-serif;
 }
+
+.questionnaireLink {
+  display: block;
+  width: max-content;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0938AD;
+  color: rgb(16, 236, 156);
+  font-weight: bolder;
+  margin: 10px auto 0 auto;
+}
+
+/*Home Page*/
 
 .bodyBox{
   margin-top: 30px;
@@ -91,13 +133,13 @@ a{
 
 .dyslexiaBox, .communicationBox{
   background-color: #09B8A9;
- width: 45%;
- min-width: 300px;
- min-height: 300px;
- height: max-content;
- border-radius: 5px;
- margin: 20px;
- box-shadow: 5px 5px 5px rgb(2, 22, 68);
+  width: 45%;
+  min-width: 300px;
+  min-height: 300px;
+  height: max-content;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px rgb(2, 22, 68);
 }
 
 p{
@@ -116,6 +158,8 @@ footer{
   height: 70px;
 }
 
+/*Warning Signs*/
+
 .warningSigns, .accommodations{
   display: flex;
   flex-wrap: wrap;
@@ -128,9 +172,13 @@ footer{
   padding: 20px;
 }
 
+/*Resources Page*/
+
 .resourceLink{
   margin: 5px;
 }
+
+/*smaller screen*/
 
 @media (hover: none){
   .bodyBox{
