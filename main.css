@@ -68,8 +68,11 @@ a{
 
 .fishtree{
   display: block;
-  height: 300px;
+  height: 328px;
   margin: 60px auto;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  padding: 10px;
 }
 
 .dyslexiaIntro {
@@ -151,7 +154,7 @@ a{
   width: 100%;
   height: fit-content;
   animation: fadeIn 0.5s;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   line-height: 140%;
   font-size: 18px;
@@ -165,6 +168,7 @@ a{
 .colorBox{
   position: absolute;
   right: -30px;
+  top: -10px;
   height: 110%;
   width: 90px;
   background-color: #09AD71;
@@ -199,7 +203,8 @@ footer{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: fixed;
+  position: relative;
+  top: 40px;
   bottom: 0;
   left: 0;
   right: 0;
