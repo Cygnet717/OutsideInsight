@@ -26,9 +26,8 @@ h3{
 
 h4{
   padding: 10px;
-  background-color: #213D3D;
-  color: whitesmoke;
-  border-radius: 15px;
+  border-radius: 8px;
+  border-bottom: 2px solid black;
 }
 
 nav{
@@ -216,7 +215,7 @@ footer{
   height: 70px;
 }
 
-/*Warning Signs*/
+/*Warning Signs & Accomodations*/
 
 .warningSigns, .accommodations{
   display: flex;
@@ -235,7 +234,7 @@ footer{
 
   margin: 10px;
   padding: 20px;
-  background-color: rgb(208, 250, 244);
+  background-color: #41F2F2;
   font-family: 'Open Sans', sans-serif;
   line-height: 140%;
   font-size: 18px;
@@ -256,20 +255,20 @@ footer{
   justify-content: space-evenly;
   padding-top: 50px;
   margin-top: 20px;
-  background-color: #09AD71;
+  background-color: #09B8A9;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(2, 22, 68);
 }
 
 .resourceLink{
   margin: 5px;
-  
+  list-style-type: none;
+  margin-bottom: 15px;
 }
 
 .resourceLink > a {
   color: black;
-  background-color: rgba(39, 163, 163, 0.733);
-  border-radius: 5px;
-  padding: 5px;
+  border-bottom: 1px solid black;
 }
 
 .resourceLink > span {
