@@ -14,7 +14,19 @@ h1, h3, h4{
 }
 
 .logo{
-  height: 80px;
+  height: 120px;
+  margin-top: 5px;
+}
+
+.navDiv{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smallLogo{
+  height: 70px;
+  margin-right: 20px;
 }
 
 h3{
@@ -32,7 +44,7 @@ h4{
 
 nav{
   background-color: #0083A0;
-  height: 100px;
+  height: 120px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -174,7 +186,7 @@ a{
   top: -10px;
   height: 110%;
   width: 90px;
-  background-color: #09AD71;
+  background-color: #41F2C0;
   z-index: -1;
 }
 
@@ -213,6 +225,11 @@ footer{
   right: 0;
   background-color: #0083A0;
   height: 70px;
+}
+
+.footerLink{
+  color:black;
+  border-bottom: 1px solid black;
 }
 
 /*Warning Signs & Accomodations*/
