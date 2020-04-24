@@ -70,6 +70,10 @@ a{
   border-radius: 5px;
 }
 
+.burgerMenu{
+  display: none;
+}
+
 .navLinkDisabled{
   color: #0083A0;
   background-color: white;
@@ -199,7 +203,7 @@ a{
   height: 500px;
 }
 
-.dyslexiaBox, .communicationBox{
+.dyslexiaBox{
   background-color: #09B8A9;
   width: 45%;
   min-width: 300px;
@@ -308,16 +312,36 @@ footer{
 /*smaller screen*/
 
 @media (hover: none){
-  .bodyBox{
-    flex-direction: column;
-    align-items: center;
-  }
+  /* Home Page */
 
-  .dyslexiaBox, .communicationBox{
-    min-width: 45;
-  }
-
-  .navLink{
+  .navLink, .navLinkDisabled{
     display: none;
   }
+
+ .bodyBox{
+  flex-direction: column;
+}
+
+h3{
+  width: initial;
+  margin: 20px 20px 0 20px;
+}
+
+.happyChildren{
+  height: 150px;
+}
+
+.maddiebus{
+  height: 200px;
+}
+
+.burgerMenu{
+  display: block;
+  padding: 30px;
+}
+
+.flip{
+  flex-direction: column-reverse;
+}
+
 }
