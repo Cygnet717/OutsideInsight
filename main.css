@@ -241,7 +241,7 @@ footer{
   background-color: #09B8A9;
   box-shadow: 5px 5px 5px rgb(2, 22, 68);
   border-radius: 5px;
-  margin: 20px 30px;
+  margin: 20px 30px 70px 30px;
 }
 
 .warningSection, .accommSection{
@@ -275,6 +275,7 @@ footer{
   background-color: #09B8A9;
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgb(2, 22, 68);
+  margin-bottom: 70px;
 }
 
 .resourceLink{
