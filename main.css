@@ -70,7 +70,18 @@ a{
   border-radius: 5px;
 }
 
+.navLink:hover {
+  color: #0083A0;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px rgb(32, 32, 32);
+}
+
 .burgerMenu{
+  display: none;
+}
+
+.windowCover {
   display: none;
 }
 
@@ -314,34 +325,62 @@ footer{
 @media (hover: none){
   /* Home Page */
 
-  .navLink, .navLinkDisabled{
+  .linkBox, .navLinkDisabled{
     display: none;
+  }
+
+  .burgerDropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #0083A0;
+    z-index: 3;
+    top: 100px;
+    right: 0;
+    border-radius: 5px;
+    animation-name: slideDown;
+    animation-duration: 1s;
+  }
+
+  @keyframes slideDown {
+    from{right: -150px}
+    to {right: 0}
+  }
+
+  .windowCover{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
   }
 
  .bodyBox{
   flex-direction: column;
-}
+  }
 
-h3{
-  width: initial;
-  margin: 20px 20px 0 20px;
-}
+  h3{
+    width: initial;
+    margin: 20px 20px 0 20px;
+  }
 
-.happyChildren{
-  height: 150px;
-}
+  .happyChildren{
+    height: 150px;
+  }
 
-.maddiebus{
-  height: 200px;
-}
+  .maddiebus{
+    height: 200px;
+  }
 
-.burgerMenu{
-  display: block;
-  padding: 30px;
-}
+  .burgerMenu{
+    display: block;
+    padding: 30px;
+  }
 
-.flip{
-  flex-direction: column-reverse;
-}
+  .flip{
+    flex-direction: column-reverse;
+  }
 
 }
