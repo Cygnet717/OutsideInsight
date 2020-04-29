@@ -306,7 +306,17 @@ footer{
 
 .resourceLink > a {
   color: black;
-  border-bottom: 1px solid black;
+  
+  border: 1px solid white;
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 3px 3px 3px rgb(0, 4, 12);
+}
+
+.resourceLink > a:hover{
+  background-color:  rgb(10, 210, 255);
+  border: 1px solid #0083A0;
 }
 
 .resourceLink > span {
@@ -327,7 +337,6 @@ footer{
 
 @media (hover: none){
   /* Home Page */
-
   .linkBox, .navLinkDisabled{
     display: none;
   }
@@ -395,7 +404,6 @@ footer{
   }
 
   /*Dyslexia Page*/
-
   .fishtree{
     height: 150px;
   }
@@ -430,5 +438,24 @@ footer{
 
   .warningSection, .accommSection{
     padding: 5px;
+  }
+
+  /*Services Page*/
+  .bkgdTriangle{
+    display: none;
+  }
+
+  .screenTutoBox{
+    flex-direction: column;
+  }
+
+  .top, .bottom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*Resources Page*/
+  .resources{
+    
   }
 }
