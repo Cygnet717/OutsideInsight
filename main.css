@@ -303,9 +303,10 @@ footer{
   font-family: 'Open Sans', sans-serif;
 }
 
-ul{
+.linkBlock > ul{
   padding-left: 5px;
 }
+
 
 .resourceLink > a {
   display: block;
