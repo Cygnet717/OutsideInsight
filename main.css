@@ -267,7 +267,6 @@ footer{
   width: 450px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(1, 7, 20);
-
   margin: 10px;
   padding: 20px;
   background-color: rgb(199, 243, 243);
@@ -384,7 +383,11 @@ footer{
 
   .burgerMenu{
     display: block;
-    padding: 30px;
+    padding: 20px;
+  }
+
+  .smallLogo{
+    margin-right: 3px;
   }
 
   .flip{
@@ -407,5 +410,25 @@ footer{
 
   .questionnaire{
     width: 90%;
+  }
+
+  /* Accommodations Page*/
+  .longTitle{
+    font-size: 20px;
+  }
+
+  .accommodations, .warningSigns{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }  
+
+  .description{
+    width: 95%;
+  }
+
+  .warningSection, .accommSection{
+    padding: 5px;
   }
 }
