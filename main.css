@@ -117,6 +117,10 @@ a{
   font-size: 18px;
 }
 
+.paragraph{
+  padding-top: 0;
+}
+
 .bkgdTriangle{
   position: absolute;
   z-index: -1;
@@ -329,6 +333,10 @@ footer{
     display: none;
   }
 
+  .navLink{
+  box-shadow: 3px 3px 3px rgb(32, 32, 32);
+  }
+
   .burgerDropdown {
     display: flex;
     flex-direction: column;
@@ -383,4 +391,21 @@ footer{
     flex-direction: column-reverse;
   }
 
+  /*Dyslexia Page*/
+
+  .fishtree{
+    height: 150px;
+  }
+
+  .dyslexiaIntro{
+    width: 95%;
+  }
+
+  .signsList{
+    width: 90%;
+  }
+
+  .questionnaire{
+    width: 90%;
+  }
 }
