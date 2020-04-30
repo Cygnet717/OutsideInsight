@@ -50,12 +50,17 @@ nav{
   align-items: center;
   justify-content: space-evenly;
   border-radius: 5px;
-  animation: fadeIn 0.5s;
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+    margin-top: 100px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
 }
 
 a{
@@ -99,15 +104,16 @@ a{
 .fishtree{
   display: block;
   height: 328px;
-  margin: 60px auto;
+  margin: 60px auto 0 auto;
   border-bottom: 4px solid black;
   border-right: 4px solid black;
   padding: 10px;
+  animation: fadeInDys 1.5s;
 }
 
 .dyslexiaIntro {
   width: 70%;
-  margin: 20px auto 20px auto;
+  margin: 60px auto 20px auto;
   background-color: #09B8A9;
   border-radius: 5px;
   padding: 5px;
@@ -115,6 +121,18 @@ a{
   font-family: 'Open Sans', sans-serif;
   line-height: 140%;
   font-size: 18px;
+  animation: fadeInDys 1.5s;
+}
+
+@keyframes fadeInDys {
+  from {
+    opacity: 0;
+    margin-top: 160px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 60px;
+  }
 }
 
 .paragraph{
@@ -143,10 +161,23 @@ a{
 
 .top{
   margin-bottom: 250px;
+  animation: fadeInDys 1s;
 }
 
 .bottom{
   margin-top: 250px;
+  animation: fadeInBottom 1s;
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    margin-top: 350px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 250px;
+  }
 }
 
 .signsList{
@@ -180,14 +211,13 @@ a{
 /*Home Page*/
 
 .bodyBox{
-  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
   height: fit-content;
-  animation: fadeIn 0.5s;
+  animation: fadeIn 1.5s;
   margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   line-height: 140%;
@@ -261,6 +291,18 @@ footer{
   box-shadow: 5px 5px 5px rgb(2, 22, 68);
   border-radius: 5px;
   margin: 20px 30px 70px 30px;
+  animation: fadeInAccomm 1s;
+}
+
+@keyframes fadeInAccomm {
+  from {
+    opacity: 0;
+    margin-top: 100px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 20px;
+  }
 }
 
 .warningSection, .accommSection{
@@ -294,6 +336,7 @@ footer{
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgb(2, 22, 68);
   margin-bottom: 70px;
+  animation: fadeInAccomm 1s;
 }
 
 .resourceLink{
