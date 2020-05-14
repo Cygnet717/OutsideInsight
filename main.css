@@ -185,7 +185,7 @@ a{
 }
 
 .signsList{
-  width: max-content;
+  width: 90%;
   margin-left: 30px;
   margin-top: -20px;
   margin-bottom: 20px;
@@ -332,6 +332,7 @@ footer{
 
 .resources{
   display: flex;
+  
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 50px;
