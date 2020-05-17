@@ -287,7 +287,7 @@ footer{
 
 /*Warning Signs & Accomodations*/
 
-.warningSigns, .accommodations{
+.warningSigns, .accomodations{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -295,10 +295,10 @@ footer{
   box-shadow: 5px 5px 5px rgb(2, 22, 68);
   border-radius: 5px;
   margin: 20px 30px 70px 30px;
-  animation: fadeInAccomm 1s;
+  animation: fadeInAccom 1s;
 }
 
-@keyframes fadeInAccomm {
+@keyframes fadeInAccom {
   from {
     opacity: 0;
     margin-top: 100px;
@@ -309,7 +309,7 @@ footer{
   }
 }
 
-.warningSection, .accommSection{
+.warningSection, .accomSection{
   width: 450px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(1, 7, 20);
@@ -340,7 +340,7 @@ footer{
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgb(2, 22, 68);
   margin-bottom: 70px;
-  animation: fadeInAccomm 1s;
+  animation: fadeInAccom 1s;
 }
 
 .columnOne, .columnTwo{
@@ -481,12 +481,12 @@ footer{
     width: 90%;
   }
 
-  /* Accommodations Page*/
+  /* Accomodations Page*/
   .longTitle{
     font-size: 20px;
   }
 
-  .accommodations, .warningSigns{
+  .accomodations, .warningSigns{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -497,7 +497,7 @@ footer{
     width: 95%;
   }
 
-  .warningSection, .accommSection{
+  .warningSection, .accomSection{
     padding: 5px;
   }
 
